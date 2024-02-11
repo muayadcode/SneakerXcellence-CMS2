@@ -91,6 +91,11 @@
 					"name": "Open Sans Bold",
 					"slug": "open-sans-bold",
 					"fontFamily": "\"Open Sans Bold\", sans-serif"
+				},
+				{
+					"name": "Poppins",
+					"slug": "poppins",
+					"fontFamily": "Poppins, sans-serif"
 				}
 			],
 			"fontSizes": [
