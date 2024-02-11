@@ -96,6 +96,12 @@
 					"name": "Poppins",
 					"slug": "poppins",
 					"fontFamily": "Poppins, sans-serif"
+				},
+				{
+					"name": "Berlin Sans FB Demi Bold",
+					"slug": "berlin-sans-demi-bold",
+					"fontFamily": "\"Berlin Sans FB Demi Bold\", sans-serif"
+					
 				}
 			],
 			"fontSizes": [
