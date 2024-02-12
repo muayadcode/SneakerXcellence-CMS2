@@ -35,6 +35,11 @@
 					"slug": "transparent",
 					"color": "transparent",
 					"name": "Transparent"
+				},
+				{
+					"slug": "custom-color",
+					"color": "#b2ceaa",
+					"name": "Custom Color"
 				}
 			],
 			"gradients": [
