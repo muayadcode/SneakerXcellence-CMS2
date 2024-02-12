@@ -30,3 +30,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+
+.codeS {
+	background-color: rgb(71, 96, 88);
+	text-align: left;
+	padding: 10px;
+	border-radius: 4px;
+}
