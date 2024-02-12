@@ -40,6 +40,11 @@
 					"slug": "custom-color",
 					"color": "#b2ceaa",
 					"name": "Custom Color"
+				},
+				{
+					"slug": "custom-color-2",
+					"color": "#92cab2",
+					"name": "Custom Color 2"
 				}
 			],
 			"gradients": [
