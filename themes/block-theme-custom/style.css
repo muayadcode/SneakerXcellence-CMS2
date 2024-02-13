@@ -43,3 +43,18 @@ body {
 	display: block;
 	margin: 0 auto;
 }
+
+
+
+
+.navs a {
+	text-decoration: none;
+}
+
+.menu:hover {
+	color: #92cab2;
+}
+
+.wp-block-post-title {
+	display: none;
+}
