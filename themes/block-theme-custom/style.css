@@ -30,3 +30,31 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+
+.codeS {
+	background-color: rgb(71, 96, 88);
+	text-align: left;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.wp-image-105 {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+.navs a {
+	text-decoration: none;
+}
+
+.menu:hover {
+	color: #92cab2;
+}
+
+.wp-block-post-title {
+	display: none;
+}
