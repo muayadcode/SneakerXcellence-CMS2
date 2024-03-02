@@ -54,3 +54,11 @@ body {
 .menu:hover {
 	color: #92cab2;
 }
+
+.wp-block-post-title {
+	text-align: center;
+}
+
+.wp-block-post-title a {
+	text-decoration: none;
+}
