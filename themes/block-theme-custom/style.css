@@ -55,9 +55,6 @@ body {
 	color: #92cab2;
 }
 
-.wp-block-post-title {
-	text-align: center;
-}
 
 .wp-block-post-title a {
 	text-decoration: none;
@@ -67,4 +64,8 @@ body {
 
 	width: 60%;
 
+}
+
+.woocommerce div.product form.cart button.single_add_to_cart_button {
+	background-color: #75a892;
 }
