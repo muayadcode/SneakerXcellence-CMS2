@@ -60,6 +60,8 @@ body {
 	text-decoration: none;
 }
 
+
+
 .cartTotal {
 
 	width: 60%;
@@ -90,4 +92,14 @@ body {
 	background-color: #3a6351;
 	width: 100%;
 	font-family: 'poppins', 'sasns-serif';
+}
+
+.wc-block-cart__main.wp-block-woocommerce-cart-items-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3a6351;
+	width: 100%;
+	margin-bottom: 20px;
+
 }
