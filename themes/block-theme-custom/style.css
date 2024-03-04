@@ -62,3 +62,9 @@ body {
 .wp-block-post-title a {
 	text-decoration: none;
 }
+
+.cartTotal {
+
+	width: 60%;
+
+}
