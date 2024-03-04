@@ -71,8 +71,6 @@ body {
 }
 
 .orderby {
-
-	/* Remove default styling */
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -86,4 +84,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.summary {
+	background-color: #3a6351;
+	width: 100%;
+	font-family: 'poppins', 'sasns-serif';
 }
