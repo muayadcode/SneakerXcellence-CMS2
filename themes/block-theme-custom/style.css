@@ -79,3 +79,11 @@ body {
 	background-color: #75a892;
 	cursor: pointer;
 }
+
+
+.woocommerce-variation-add-to-cart,
+.stock.in-stock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
