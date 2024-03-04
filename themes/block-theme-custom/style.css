@@ -69,3 +69,13 @@ body {
 .woocommerce div.product form.cart button.single_add_to_cart_button {
 	background-color: #75a892;
 }
+
+.orderby {
+
+	/* Remove default styling */
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #75a892;
+	cursor: pointer;
+}
