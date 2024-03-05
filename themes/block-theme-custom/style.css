@@ -62,9 +62,22 @@ body {
 
 
 
-.cartTotal {
+.wp-block-woocommerce-cart-totals-block {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
 
-	width: 60%;
+}
+
+.wc-block-cart__submit-container {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+.wc-block-cart__submit-container a {
+	background-color: #274538;
 
 }
 
