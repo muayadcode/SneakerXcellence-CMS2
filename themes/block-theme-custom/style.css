@@ -72,12 +72,22 @@ body {
 .wc-block-cart__submit-container {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
+	width: 55%;
+
 
 }
 
 .wc-block-cart__submit-container a {
 	background-color: #274538;
+	border: none;
+
+}
+
+
+
+.wc-block-cart__submit-container a:hover {
+	background-color: #588672;
+	border: none;
 
 }
 
