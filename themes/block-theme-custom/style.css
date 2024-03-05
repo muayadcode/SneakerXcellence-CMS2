@@ -97,9 +97,9 @@ body {
 
 .orderby {
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 1px solid #b7faff;
 	border-radius: 4px;
-	background-color: #75a892;
+	background-color: #588672;
 	cursor: pointer;
 }
 
@@ -145,20 +145,6 @@ body {
 	text-align: center;
 }
 
-.wp-block-woocommerce-checkout-totals-block {
-	width: 100%;
-	position: absolute;
-	top: 0;
-}
-
-
-
-.wc-block-components-main.wc-block-checkout__main.wp-block-woocommerce-checkout-fields-block.fields {
-	font-family: 'poppins', 'sans-serif';
-	display: block;
-	margin: 0 auto;
-	margin-top: 500px;
-}
 
 .wp-element-button.wc-block-components-checkout-place-order-button {
 	display: block;
