@@ -120,7 +120,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #274538;
+	background-color: #3a6351;
 	width: 100%;
 	margin-bottom: 20px;
 	font-family: 'poppins', 'sans-serif';
@@ -153,7 +153,7 @@ body {
 
 
 
-.wc-block-components-sidebar-layout .wc-block-components-main {
+.wc-block-components-main.wc-block-checkout__main.wp-block-woocommerce-checkout-fields-block.fields {
 	font-family: 'poppins', 'sans-serif';
 	display: block;
 	margin: 0 auto;
@@ -164,4 +164,16 @@ body {
 	display: block;
 	margin: 0 auto;
 	background-color: #274538;
+	border: none;
+}
+
+.wp-element-button.wc-block-components-checkout-place-order-button:hover {
+
+	background-color: #588672;
+
+}
+
+.wp-block-button.wc-block-grid__product-add-to-cart a {
+	background-color: #588672;
+	border: none;
 }
