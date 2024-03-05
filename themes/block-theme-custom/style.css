@@ -209,3 +209,22 @@ body {
 .wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link {
 	border: none;
 }
+
+#wpforms-441.wpforms-block-8e4ea318-bbc7-4bbb-9fbd-7f9a819b3c22 {
+	display: block;
+	margin: 0 auto;
+	max-width: 85%;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #274538;
+}
+
+.wpforms-submit-container {
+	display: flex;
+	justify-content: center;
+}
+
+.wpforms-title,
+.wpforms-description {
+	text-align: center;
+}
