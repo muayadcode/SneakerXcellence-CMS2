@@ -113,7 +113,6 @@ body {
 
 .summary {
 	background-color: #3a6351;
-	width: 100%;
 	font-family: 'poppins', 'sasns-serif';
 }
 
@@ -144,4 +143,25 @@ body {
 .wc-block-components-product-name {
 	margin: 0 auto;
 	text-align: center;
+}
+
+.wp-block-woocommerce-checkout-totals-block {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+
+
+.wc-block-components-sidebar-layout .wc-block-components-main {
+	font-family: 'poppins', 'sans-serif';
+	display: block;
+	margin: 0 auto;
+	margin-top: 500px;
+}
+
+.wp-element-button.wc-block-components-checkout-place-order-button {
+	display: block;
+	margin: 0 auto;
+	background-color: #274538;
 }
