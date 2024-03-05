@@ -163,3 +163,33 @@ body {
 	background-color: #588672;
 	border: none;
 }
+
+.woocommerce-account .entry-content .woocommerce {
+	display: flex;
+	flex-direction: column;
+	font-family: 'poppins', 'sans-serif';
+	background-color: #588672;
+	padding: 1rem;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	width: 100%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+	padding: 0;
+	margin: 5px;
+}
+
+
+.woocommerce-account .wp-block-post-title {
+	color: #92cab2;
+	font-family: 'poppins', 'sans-serif';
+}
