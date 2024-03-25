@@ -64,7 +64,7 @@ function cms2_register_post_type() {
       'menu_icon'             => 'dashicons-products',
       'capability_type'       => 'post',
       'capabilities'          => array(),
-      'supports'              => array( 'title', 'editor', 'revisions' ),
+      'supports'              => array( 'title', 'editor', 'revisions', 'thumbnail', 'excerpt' ),
       'taxonomies'            => array(),
       'has_archive'           => false,
       'rewrite'               => array( 'slug' => 'sneakers' ),
