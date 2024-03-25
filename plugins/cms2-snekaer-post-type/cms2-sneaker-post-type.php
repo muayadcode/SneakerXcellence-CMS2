@@ -65,7 +65,7 @@ function cms2_register_post_type() {
       'capability_type'       => 'post',
       'capabilities'          => array(),
       'supports'              => array( 'title', 'editor', 'revisions', 'thumbnail', 'excerpt' ),
-      'taxonomies'            => array(),
+      'taxonomies'            => array('category'),
       'has_archive'           => true,
       'rewrite'               => array( 'slug' => 'sneakers' ),
       'query_var'             => true,
