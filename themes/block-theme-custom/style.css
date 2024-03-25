@@ -229,3 +229,12 @@ body {
 .wpforms-description {
 	text-align: center;
 }
+
+/* mobile view */
+@media (max-width: 768px) {
+
+	/* Adjust order list on mobile */
+	.orderby {
+		max-width: 80%;
+	}
+}
