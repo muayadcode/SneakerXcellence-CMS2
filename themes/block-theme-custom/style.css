@@ -237,4 +237,27 @@ body {
 	.orderby {
 		max-width: 80%;
 	}
+
+	/* Adjust post headers font size on mobile */
+	.wp-block-post-title {
+		font-size: 2rem;
+	}
+
+	/* Adjust post headers font size in home on mobile */
+	.wp-block-post-title a {
+		font-size: 1.8rem;
+	}
+
+	/* Adjust home header font size on mobile */
+	.wp-elements-203bc2dd789f53051e4f7d97cb8ad4c0 {
+		font-size: 1.6rem;
+		text-align: center;
+	}
+
+	/* center shop button in home on mobile */
+	.wp-block-button.has-custom-width.wp-block-button__width-75.shops {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
 }
