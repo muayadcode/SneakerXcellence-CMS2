@@ -73,17 +73,14 @@ body {
 }
 
 
-
+/* This rule will change background-color of the WooCommerce cart procees to checkout button when user hovers */
 .wc-block-cart__submit-container a:hover {
 	background-color: #588672;
 	border: none;
 
 }
 
-.woocommerce div.product form.cart button.single_add_to_cart_button {
-	background-color: #75a892;
-}
-
+/* This rule will style the filter dropdown menu and block in the shop page with specific colors and borders */
 .orderby {
 	padding: 10px;
 	border: 1px solid #b7faff;
@@ -92,13 +89,21 @@ body {
 	cursor: pointer;
 }
 
+/* This rule changes the background color of the 'Add to Cart' button on the product page */
+.woocommerce div.product form.cart button.single_add_to_cart_button {
+	background-color: #75a892;
+}
+
+/* This rule will center the 'Add to Cart' button with "numbers to add" div and how many in stock text on the product page */
 
 .woocommerce-variation-add-to-cart,
 .stock.in-stock {
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 
 .summary {
 	background-color: #3a6351;
