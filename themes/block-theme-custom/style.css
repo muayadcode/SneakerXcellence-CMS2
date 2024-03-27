@@ -104,12 +104,14 @@ body {
 	align-items: center;
 }
 
-
+/* This rule will style order summary block in checkout page */
 .summary {
 	background-color: #3a6351;
 	font-family: 'poppins', 'sasns-serif';
 }
 
+/* This rule will style and center main cart items and product information section 
+in cart page like product image, name ,total and quantity-selector */
 .wc-block-cart__main.wp-block-woocommerce-cart-items-block {
 	display: flex;
 	justify-content: center;
@@ -120,26 +122,27 @@ body {
 	font-family: 'poppins', 'sans-serif';
 }
 
+/* this rule will remove text underline decoration from the product's name title in cart section and center it*/
 .wc-block-cart__main.wp-block-woocommerce-cart-items-block a {
 	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
 }
 
+/* this rule will style and center quantity-selector section under each product in the cart page */
 .wc-block-components-quantity-selector {
 	background-color: #ccc;
 	color: black;
 	margin: 0 auto;
 }
 
+/* this rule will center product's price , size , and remove item and main cart items in cart page  */
 .wc-block-cart-item__product {
 	text-align: center;
 }
 
-.wc-block-components-product-name {
-	margin: 0 auto;
-	text-align: center;
-}
 
-
+/* this rule will style "place order" button in checkout page*/
 .wp-element-button.wc-block-components-checkout-place-order-button {
 	display: block;
 	margin: 0 auto;
@@ -147,36 +150,39 @@ body {
 	border: none;
 }
 
+/* this rule will change background color for  "place order" button in checkout page when user hovers*/
 .wp-element-button.wc-block-components-checkout-place-order-button:hover {
 
 	background-color: #588672;
-
 }
 
-.wp-block-button.wc-block-grid__product-add-to-cart a {
-	background-color: #588672;
-	border: none;
-}
 
-.woocommerce-account .entry-content .woocommerce {
-	display: flex;
-	flex-direction: column;
-	font-family: 'poppins', 'sans-serif';
-
-	padding: 1rem;
-}
-
+/* this rule will give 100% width to user information navigation links in my account page*/
 .woocommerce-account .woocommerce-MyAccount-navigation {
 	width: 100%;
 }
 
-.woocommerce-account .woocommerce-MyAccount-navigation ul {
+/* this rule will style user information section under each link in my account page*/
+.woocommerce-account .entry-content .woocommerce {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	font-family: 'poppins', 'sans-serif';
+	padding: 1rem;
 }
 
+/* this rule will style each ul for navigation links my account page*/
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+	display: flex;
+	/* The list items are displayed as a flex container */
+	justify-content: space-between;
+	/* The list items are evenly distributed in the line with equal space around them */
+	align-items: center;
+	/* The list items are aligned vertically in the center */
+	flex-wrap: wrap;
+	/* The list items are allowed to wrap onto multiple lines */
+}
+
+/* this rule will style li for navigation links my account page giving them specific margins*/
 .woocommerce-account .woocommerce-MyAccount-navigation li {
 	padding: 0;
 	margin: 5px;
@@ -254,5 +260,17 @@ body {
 		text-align: center;
 	}
 
+	.wc-block-cart__main.wp-block-woocommerce-cart-items-block a {
+		text-decoration: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+
+	/* this rule will center product's price , size , and remove item and main cart items in cart page  */
+	.wc-block-cart-item__product {
+
+		font-size: 1.3rem;
+	}
 
 }
