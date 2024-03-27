@@ -188,12 +188,14 @@ in cart page like product image, name ,total and quantity-selector */
 	margin: 5px;
 }
 
-
+/* this rule will style the title's header in my account page*/
 .woocommerce-account .wp-block-post-title {
 	color: #92cab2;
 	font-family: 'poppins', 'sans-serif';
 }
 
+
+/* this rule will style information block section in my account page and center it*/
 .woocommerce-MyAccount-content {
 	background-color: #588672;
 	padding: 10px;
@@ -202,14 +204,13 @@ in cart page like product image, name ,total and quantity-selector */
 	margin: 0 auto;
 }
 
+/* styling background color for login block under my account page */
 .woocommerce-form.woocommerce-form-login.login {
 	background-color: #446a59;
 }
 
-.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link {
-	border: none;
-}
 
+/* This rule will style wpforms contact form block with its fields in contact page and it will center it  */
 #wpforms-441.wpforms-block-8e4ea318-bbc7-4bbb-9fbd-7f9a819b3c22 {
 	display: block;
 	margin: 0 auto;
@@ -219,11 +220,13 @@ in cart page like product image, name ,total and quantity-selector */
 	background-color: #274538;
 }
 
+/* This rule will center submit button of wpforms contact form in contact page*/
 .wpforms-submit-container {
 	display: flex;
 	justify-content: center;
 }
 
+/* This rule will center the tite  of wpforms contact form in contact page*/
 .wpforms-title,
 .wpforms-description {
 	text-align: center;
@@ -256,12 +259,6 @@ in cart page like product image, name ,total and quantity-selector */
 	/* center shop button in home on mobile */
 	.wp-block-button.has-custom-width.wp-block-button__width-75.shops {
 		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.wc-block-cart__main.wp-block-woocommerce-cart-items-block a {
-		text-decoration: none;
 		margin: 0 auto;
 		text-align: center;
 	}
