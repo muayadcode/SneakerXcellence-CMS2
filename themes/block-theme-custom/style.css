@@ -33,36 +33,24 @@ body {
 
 /* start adding comments */
 
-.codeS {
-	background-color: rgb(71, 96, 88);
-	text-align: left;
-	padding: 10px;
-	border-radius: 4px;
-}
 
-.wp-image-105 {
-	display: block;
-	margin: 0 auto;
-}
-
-
-
-
+/* Remove the underline decoration from anchor links within nav */
 .navs a {
 	text-decoration: none;
 }
 
-.menu:hover {
+/* Change the text color to green when the anchor link is hovered over */
+.navs a:hover {
 	color: #92cab2;
 }
 
-
+/* This rule removes the underline decoration from each post's titles*/
 .wp-block-post-title a {
 	text-decoration: none;
 }
 
 
-
+/* This rule styles the WooCommerce cart totals block and center it with specific width */
 .wp-block-woocommerce-cart-totals-block {
 	display: block;
 	margin: 0 auto;
@@ -70,14 +58,14 @@ body {
 
 }
 
+/* This rule styles the WooCommerce cart procees to checkout container and center it with specific width */
 .wc-block-cart__submit-container {
 	display: block;
 	margin: 0 auto;
 	width: 65%;
-
-
 }
 
+/* This rule styles the WooCommerce cart procees to checkout button and give it specific background-color */
 .wc-block-cart__submit-container a {
 	background-color: #274538;
 	border: none;
@@ -260,4 +248,6 @@ body {
 		margin: 0 auto;
 		text-align: center;
 	}
+
+
 }
